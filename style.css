@@ -38,3 +38,75 @@ code {
     height: 100px;
     border: 1px solid blue; 
 }
+* {
+    box-sizing: border-box;
+}
+/* Style the sidebar - fixed full height */
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+#navbar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+  }
+}
+
+
+/* Style sidebar links */
+#navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #818181;
+  display: block;
+}
+/* Style links on mouse-over */
+#navbar a:hover {
+  color: #f1f1f1;
+  background:purple;
+  transition: 0.5s; 
+}
+/* Style the main content */
+#main-doc {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+#main-header{
+  color:gray;
+  padding-left:3px;
+  text-decoration:none;
+  padding-bottom:25px;
+}
+header {
+  font-weight:bold;
+  font-size:18px;
+  text-decoration:underline;
+}
+code {
+  width: 350px;
+  height: 100px;
+  display:flex; 
+  justify-content: center;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:#efefe6;
+  opacity:
+}
+
+#navbar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+  }
